@@ -7,7 +7,7 @@ public class JavaLibs {
         String input1 = (String)JOptionPane.showInputDialog(null,
                 "Type your Name",
                 "(1/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "name");
@@ -15,7 +15,7 @@ public class JavaLibs {
         String input2 = (String)JOptionPane.showInputDialog(null,
                 "Enter Birthday as decimal [month.day]",
                 "(2/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "1.1");
@@ -27,7 +27,7 @@ public class JavaLibs {
         String input3 = (String)JOptionPane.showInputDialog(null,
                 "Enter Age",
                 "(3/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "99");
@@ -38,7 +38,7 @@ public class JavaLibs {
         String input4 = (String)JOptionPane.showInputDialog(null,
                 "Enter Home Address",
                 "(4/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "23 Fever Rd.");
@@ -46,7 +46,7 @@ public class JavaLibs {
         String input5 = (String)JOptionPane.showInputDialog(null,
                 "Enter Social Security Number.",
                 "(5/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "329827915");
@@ -54,7 +54,7 @@ public class JavaLibs {
         String input6 = (String)JOptionPane.showInputDialog(null,
                 "Enter Credit Card Provider",
                 "(6/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "Visa");
@@ -62,7 +62,7 @@ public class JavaLibs {
         String input7 = (String)JOptionPane.showInputDialog(null,
                 "Type Security code",
                 "(7/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "913");
@@ -70,7 +70,7 @@ public class JavaLibs {
         String input8 = (String)JOptionPane.showInputDialog(null,
                 "Enter Current Employer",
                 "(8/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "Cuzinos");
@@ -78,7 +78,7 @@ public class JavaLibs {
         String input9 = (String)JOptionPane.showInputDialog(null,
                 "How long have you been living at "+input4+"? [in years]",
                 "(9/10) Survey",
-                2,
+                3,
                 null,
                 null,
                 "4");
@@ -93,8 +93,10 @@ public class JavaLibs {
                 acceptableValues[1]);
 
         JOptionPane.showMessageDialog(null,
-                "Hello! my name is "+input1+"! I am "+input3+" years old! which means i'll be "+input33+" in "+input2+".23! I have Jury Duty on "+input22+".23 ",
-                "Story:",
+                "Hello! my name is "+input1+"! I am "+input3+" years old! which means i'll be "+input33+" in "+input2+".23! \n" +
+                        " I have Jury Duty on "+input22+".23 I live at "+input4+" and have lived here for "+input9+" years!\n" +
+                        " My SSN is "+input5+"! I bank using "+input6+" and my security code is "+input7+"! ",
+                "Your Portfolio:",
                 3);
 
 // 1string 1int 1double 1input in question, math int,double 10inputs
